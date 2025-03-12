@@ -23,9 +23,28 @@
 
 
 // Demonstrate callback functions
+function hi(name) {
+    return name
+}
 
+function whatIsYourName() {
+    return name
+} 
 
 // Pure vs impure functions
 
 
 // How functions can return other functions
+
+
+// const arr = [1, 2, 3,].mmap(someCallBackFunction)
+
+// function arr = [1,2,3,].map(function (element){
+//     console.log('The current element is:', element);
+// })
+
+const arr = [1, 2, 3].map((num) =>
+    console.log('The current element is: ', num)
+);
+
+console.log(arr);
